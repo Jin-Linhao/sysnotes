@@ -1,0 +1,3 @@
+profile >> general >> "untick show title bar"
+profile >> colors >> built-in schemes: custom
+profile >> colors >> background color: R:48 G:12 B:36
