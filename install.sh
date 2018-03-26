@@ -21,5 +21,15 @@ sudo apt-get install kazam -y
 echo "Installing Unity Tweak Tool..."
 sudo apt-get install unity-tweak-tool
 
+echo "Installing python3"
+sudo apt-get install -y python3
+sudo apt-get install -y python3-pip
+
+
+echo "Installing Jupyter notebook..."
+sudo apt-get -y install ipython ipython-notebook
+sudo -H pip install jupyter
+sudo -H pip3 install jupyter
+
 echo "Installation finish."
 echo "."
