@@ -20,3 +20,5 @@ sudo apt-get install kazam -y
 
 echo "Installing Unity Tweak Tool..."
 sudo apt-get install unity-tweak-tool
+
+echo "Installation finish."
