@@ -31,5 +31,14 @@ sudo apt-get -y install ipython ipython-notebook
 sudo -H pip install jupyter
 sudo -H pip3 install jupyter
 
+echo "Installing Pytorch-cpu and torchvision for Python2..."
+pip install http://download.pytorch.org/whl/cpu/torch-0.3.1-cp27-cp27mu-linux_x86_64.whl 
+pip install torchvision 
+
+
+echo "Installing Pytorch-cpu and torchvision for Python3..."
+pip3 install http://download.pytorch.org/whl/cpu/torch-0.3.1-cp35-cp35m-linux_x86_64.whl 
+pip3 install torchvision
+
 echo "Installation finish."
 echo "."
