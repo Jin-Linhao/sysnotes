@@ -25,6 +25,9 @@ echo "Installing python3"
 sudo apt-get install -y python3
 sudo apt-get install -y python3-pip
 
+echo "Installing skimage"
+sudo -H pip install scikit-image
+sudo -H pip3 install scikit-image
 
 echo "Installing Jupyter notebook..."
 sudo apt-get -y install ipython ipython-notebook
